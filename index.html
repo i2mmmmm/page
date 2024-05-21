@@ -3,19 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mm's GitHub Pages Site</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Data Scientist Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a, footer a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .main {
+            padding: 20px 0;
+        }
+        .main h2 {
+            text-align: center;
+            color: #333;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            margin: 20px 0;
+            border: #ccc 1px solid;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to my Page</h1>
+        <div class="container">
+            <div id="branding">
+                <h1>2mm's Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section id="content">
-        <p>This is practice</p>
+
+    <section class="main" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>Hello! I am a Data Scientist with expertise in machine learning, data analysis, and visualization. I have a passion for transforming data into actionable insights and solving complex problems.</p>
+            </div>
+        </div>
     </section>
+
+    <section class="main" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Project 1: Predictive Modeling</h3>
+                <p>Description of the project, technologies used, and outcomes.</p>
+            </div>
+            <div class="card">
+                <h3>Project 2: Data Visualization</h3>
+                <p>Description of the project, technologies used, and outcomes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main" id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="card">
+                <p>Programming Languages: Python, R, SQL</p>
+                <p>Machine Learning: Scikit-learn, TensorFlow, Keras</p>
+                <p>Data Visualization: Matplotlib, Seaborn, Tableau</p>
+                <p>Others: Data Wrangling, Statistical Analysis, Big Data</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main" id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="card">
+                <p>Email: 2mmnamoo@gmail.com</p>
+                <p>GitHub: <a href="https://github.com/i2mmmmm" target="_blank">Your GitHub Profile</a></p>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>Contact: <a href="mailto:your-email@example.com">2mmnamoo@gmail.com</a></p>
+        <p>Data Scientist Portfolio &copy; 2024</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
